@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#C0C0C0"
+    tools:context="com.example.rahul.myapplication.Login">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="username"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:ems="9"
+        android:singleLine="true"
+        android:textColor="#B0B0B0"
+        android:textSize="22dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textIsSelectable="false"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="password"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:ems="10"
+        android:textColor="#B0B0B0"
+        android:textSize="22dp"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17dp"
+        android:foregroundGravity="center"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:id="@+id/login"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="130dp"
+        android:background="#FFFFFF"
+        
+        />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
